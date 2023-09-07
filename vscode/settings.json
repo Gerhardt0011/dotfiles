@@ -1,0 +1,64 @@
+{
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Courier New', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 36,
+  "editor.glyphMargin": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.showTabs": false,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "explorer.confirmDelete": false,
+  "editor.inlineSuggest.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "csharp.referencesCodeLens.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "settingsSync.ignoredExtensions": [],
+  "reactSnippets.settings.importReactOnTop": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "go": true,
+    "rust": false
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "window.titleBarStyle": "custom",
+  "git.openRepositoryInParentFolders": "never",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off"
+}
